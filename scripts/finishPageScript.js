@@ -151,7 +151,7 @@ function copy(){
  
   // 카카오링크 버튼 생성
   Kakao.Link.createDefaultButton({
-    container: '#btnKakao', // 카카오공유버튼ID
+    container: '#copyButton', // 카카오공유버튼ID
     objectType: 'feed',
     content: {
       title: "개발새발", // 보여질 제목
